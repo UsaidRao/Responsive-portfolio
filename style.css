@@ -1,0 +1,15 @@
+/* Global view */
+h1{
+    color: black;
+}
+
+/* Tablet view */
+@media(max-width: 768px){
+    h1{color: brown;}
+}
+
+/* Mobile view */
+
+@media(max-width: 500px){
+    h1{color: grey;}
+}
