@@ -1,15 +1,33 @@
 /* Global view */
-h1{
-    color: black;
+.container{
+    background-color: rgba(0, 255, 255, 0.904);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.col{
+    background-color: rgba(207, 27, 57, 0.836);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
 
 /* Tablet view */
 @media(max-width: 768px){
-    h1{color: brown;}
+   .col{
+    width: 45%;
+   }
 }
 
 /* Mobile view */
 
-@media(max-width: 500px){
-    h1{color: grey;}
+@media(max-width: 400px){
+   
+   .col {width: 100% ;}
+
 }
