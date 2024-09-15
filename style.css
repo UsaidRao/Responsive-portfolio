@@ -15,13 +15,22 @@
     width: 30%;
     margin-bottom: 30px;
 }
+.hide-destop-only{
+    display: none;
+}
+
 
 
 /* Tablet view */
 @media(max-width: 768px){
-   .col{
+.col{
     width: 45%;
    }
+
+.hide-destop-only{
+    display: block;
+}
+
 }
 
 /* Mobile view */
@@ -29,5 +38,9 @@
 @media(max-width: 400px){
    
    .col {width: 100% ;}
+   
+   .hide-mobile{
+    display: none;
+   }
 
 }
