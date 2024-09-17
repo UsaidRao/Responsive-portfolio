@@ -1,6 +1,6 @@
 /* Global view */
 .container{
-    background-color: rgba(0, 255, 255, 0.904);
+    
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
@@ -10,17 +10,27 @@
 }
 
 .col{
-    
+    background-color: rgba(0, 255, 255, 0.842);
     width: 30%;
     margin-bottom: 30px;
 }
 .hide-destop-only{
     display: none;
 }
-
+.col p{
+    color: white;
+    font-size: 0.875rem;
+    padding: 10px 20px;
+    line-height: 1.25rem;
+}
 .col img {
     width: 100%;
     height: auto;
+}
+
+.col p::first-line{
+    font-weight: 700px;
+
 }
 
 
