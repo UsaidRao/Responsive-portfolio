@@ -10,13 +10,17 @@
 }
 
 .col{
-    background-color: rgba(207, 27, 57, 0.836);
-    min-height: 200px;
+    
     width: 30%;
     margin-bottom: 30px;
 }
 .hide-destop-only{
     display: none;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
 }
 
 
