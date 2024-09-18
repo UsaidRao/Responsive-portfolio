@@ -1,5 +1,10 @@
 body{
     color: white;
+    background-color: #EBEBEB;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 /* Global view */
 .container{
@@ -55,6 +60,14 @@ header{
 
 .col p::first-line{
     font-weight: 700px;
+
+}
+
+.mybutton{
+    padding: 10px 25px;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 20px;
 
 }
 
