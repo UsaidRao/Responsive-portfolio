@@ -1,3 +1,6 @@
+body{
+    color: white;
+}
 /* Global view */
 .container{
     
@@ -7,7 +10,29 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 40px;
 }
+
+header{
+    background-color: rgb(65, 60, 60);
+    min-height: 100px;
+    
+
+}
+
+.headerbox{
+    /* background-color: blueviolet; */
+    min-height: 100px;
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
 
 .col{
     background-color: rgba(0, 255, 255, 0.842);
@@ -18,7 +43,7 @@
     display: none;
 }
 .col p{
-    color: white;
+    
     font-size: 0.875rem;
     padding: 10px 20px;
     line-height: 1.25rem;
