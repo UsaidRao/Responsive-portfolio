@@ -25,9 +25,6 @@ header{
     top: 0;
     padding: 10px 16px;
     
-    
-    
-
 }
 
 .headerbox{
@@ -42,17 +39,18 @@ header{
 }
 
 
-
-
-
 .col{
     background-color: rgba(0, 255, 255, 0.842);
     width: 30%;
     margin-bottom: 30px;
+
 }
+
 .hide-destop-only{
     display: none;
 }
+
+
 .col p{
     
     font-size: 0.875rem;
@@ -88,8 +86,13 @@ header{
 .hide-destop-only{
     display: block;
 }
+nav a{
+    display: block;
+   }
 
 }
+
+
 
 /* Mobile view */
 
@@ -100,5 +103,27 @@ header{
    .hide-mobile{
     display: none;
    }
+   header{
+    display: block;
+    text-align: center;
+
+   }
+
+   .logo{
+    padding: 40px 0;
+   }
+   header{
+    display: block;
+    text-align: center;
+
+   }
+
+   .logo{
+    padding: 40px 0;
+   }
+   nav a{
+    display: block;
+   }
+   
 
 }
