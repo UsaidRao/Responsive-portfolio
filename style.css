@@ -75,6 +75,10 @@ header{
 
 }
 
+.mob-wrapper{
+    display: none;
+}
+
 
 
 /* Tablet view */
@@ -86,9 +90,27 @@ header{
 .hide-destop-only{
     display: block;
 }
+
 nav a{
+    display: none;
+}
+
+
+.mob-wrapper{
     display: block;
-   }
+    padding-right: 30px;
+}  
+
+.navbutton{
+    display: block;
+    position: relative;
+    background-color: coral;
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
+}
+
+
 
 }
 
@@ -112,17 +134,12 @@ nav a{
    .logo{
     padding: 40px 0;
    }
-   header{
-    display: block;
-    text-align: center;
-
-   }
-
+   
    .logo{
     padding: 40px 0;
    }
    nav a{
-    display: block;
+    display: none;
    }
    
 
